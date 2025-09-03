@@ -52,6 +52,13 @@ The project is designed with the following components:
 - Docker
 
 ## 🚀 Getting Started
+### Prerequisites
+
+- **Docker Desktop**
+- **Git** 
+
+### Setup Instructions
+
 
 1. Clone the repository:
     ```bash
