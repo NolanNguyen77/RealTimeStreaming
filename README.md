@@ -11,7 +11,7 @@
 
 ## 📖 Overview
 
-This project demonstrates a real-time **ETL pipeline** that streams user data from an external API into **Apache Kafka**, processes the stream using **Apache Spark Structured Streaming**, and stores the processed data into **Apache Cassandra** for further querying.
+This project demonstrates a real-time **ETL pipeline** that streams user data from an external API into **Apache Kafka**, processes the stream using **Apache Spark Structured Streaming**, and stores the processed data into **Apache Cassandra** for further querying. The entire workflow is orchestrated with **Apache Airflow** and containerized using **Docker** for easy deployment.
 
 
 ## 🏗️ System Architecture
