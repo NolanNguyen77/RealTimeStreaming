@@ -5,7 +5,7 @@ from airflow.operators.python import PythonOperator
 
 default_args = {
     'owner': 'airscholar',
-    'start_date': datetime(2025, 8, 29, 8, 00)
+    'start_date': datetime(2025, 9, 6, 8, 00)
 }
 
 def get_data():
@@ -39,9 +39,9 @@ def format_data(res):
 # Stream data to Kafka topic through confluent UI
 def stream_data():
     import json
-    from kafka import KafkaProducer
     import time
     import logging
+    from kafka import KafkaProducer
 
     # res = get_data()
     # res = format_data(res)
